@@ -49,7 +49,7 @@ To personalize this portfolio:
 5. Update the certification PDFs in the `certificate` folder
 
 ## Live Demo
-[[View Live Portfolio]https://deepshikha-pal-portfolio.netlify.app/](#) *(Add your live URL here when deployed)*
+https://deepshikha-pal-portfolio.netlify.app/
 
 ## License
 This project is open source and available under the MIT License.
