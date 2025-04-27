@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepshikha Pal</title>
+    <link rel="icon" href="./my_photo.jpeg" type="image/my_photo.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Smooth scrolling for anchor links */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Add padding to sections to account for fixed header */
+        section {
+           
+            padding: 0px; 
+            margin: 0px; /* Adjust based on header height */
+            
+        }
+        
+    </style>
+</head>
+<body style="margin: 0; background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);">
+
+    <header style="width: 100%; border-radius:10px;background-color: rgb(206, 204, 204); padding: 1rem 2rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); position: fixed; top: 0; z-index: 1000;">
+        <nav style="max-width: 1200px; margin: auto; display: flex; align-items: center; justify-content: space-between;">
+            <h2 style="font-size: 2rem; font-weight: 600; color: #007bff; margin: 0;">Deepshikha Pal</h2>
+            <ul style="font-size: 1.2rem; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem; list-style: none; padding: 0; margin: 0; position: relative;">
+                <li style="position: relative;"><a href="#about" style="text-decoration: none; color: black;">About</a></li>
+                <li style="position: relative;"><a href="#skills" style="text-decoration: none; color: black;">Skills</a></li>
+                <li style="position: relative;"><a href="#project" style="text-decoration: none; color: black;">Projects</a></li>
+                <li style="position: relative;"><a href="resume.html" style="text-decoration: none; color: black;">Resume</a></li>
+                <li style="position: relative;"><a href="#education" style="text-decoration: none; color: black;">Education</a></li>
+                <li style="position: relative;">
+                    <div style="position: relative;">
+                        <a href="#" style="text-decoration: none; color: black;">More</a>
+                        <ul style="display: none; position: absolute; top: 100%; left: 0; background-color: white; list-style: none; padding: 0; margin: 0; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); min-width: 150px;">
+                            <li><a href="#experience" style="display: block; padding: 0.5rem 1rem; text-decoration: none; color: black;">Experience</a></li>
+                            <li><a href="#certificate" style="display: block; padding: 0.5rem 1rem; text-decoration: none; color: black;">Certifications</a></li>
+                            <li><a href="#contact" style="display: block; padding: 0.5rem 1rem; text-decoration: none; color: black;">Contact</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Sections with corrected IDs and padding -->
+    <section id="about" style="padding: 80px 0; background-color:#e0e0e0; border-radius:20px;margin: 120px 60px;">
+        <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+      
+          <!-- Heading -->
+          <h2 class="section-title" style="text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 50px; color: #333;">
+            About <span style="color: #007bff;">Me</span>
+            <div style="width: 200px; height: 1px; background-color: #373637; margin: auto; margin-top:10px;"></div>
+          </h2>
+      
+          <!-- Content -->
+          <div class="about-content" style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px;">
+      
+            <!-- Profile Image -->
+            <div class="about-image" style="flex: 1; min-width: 280px; text-align: center;">
+    
+                <!-- Photo -->
+                <img src="./my_photo.jpeg" alt="Deepshikha Pal" style="width: 300px; height: 300px; object-fit: cover; border-radius: 50%; border: 4px solid #eee; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                
+                <!-- Name and Title -->
+                <div style="margin-top: 20px; display: flex; flex-direction: column; align-items: center; gap: 8px;">
+                  <h3 style="margin: 0; font-size: 24px; color: #333;">Deepshikha Pal</h3>
+                  <p style="margin: 0; font-size: 16px; color: #555;">Full-Stack Developer</p>
+                </div>
+                
+                <!-- Social Links -->
+                <div style="margin-top: 20px; display: flex; justify-content: center; gap: 20px; font-size: 26px; color: #555;">
+                  <a href="https://github.com/DEEPSHIKHA102" target="_blank" style="color: #007bff;; text-decoration: none;">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/deepshikha-pal-7915a5251/" target="_blank" style="color: #007bff; text-decoration: none;">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+            
+              </div>
+      
+            <!-- Text -->
+            <div class="about-text" style="flex: 2; min-width: 280px;">
+      
+              <p style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 20px;">
+                Hello, I'm <strong>Deepshikha Pal</strong>, a Computer Science student at <strong>Lovely Professional University</strong> specializing in <strong>Full-Stack Development</strong>.
+              </p>
+      
+              <p style="font-size: 18px; line-height: 1.7; color: #555; margin-bottom: 20px;">
+                I’m passionate about leveraging technology to design and develop scalable solutions that address real-world challenges. With a focus on creating impactful and user-friendly applications, I enjoy turning complex problems into efficient, innovative systems.
+              </p>
+      
+              <p style="font-size: 18px; line-height: 1.7; color: #555;">
+                I strive to expand my knowledge and apply it to projects that create real value for users and communities alike.
+              </p>
+      
+              <!-- Skills -->
+              <div style="margin-top: 30px;">
+                <h3 style="font-size: 24px; color: #333; margin-bottom: 15px;">Skills</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;">HTML</span>
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;">CSS</span>
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;">JavaScript</span>
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;">React.js</span>
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;">Node.js</span>
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;">Java</span>
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;">C++</span>
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;">MySQL</span>
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;;">MongoDB</span>
+                  <span style="background-color: #90bae7; color: black; padding: 8px 14px; border-radius: 10px; font-size: 14px;">Git & GitHub</span>
+                </div>
+              </div>
+      
+              <!-- Buttons -->
+              <div style="margin-top: 30px; display: flex; gap: 15px;">
+                <a href="resume.html" style="background-color: #0678f9; color: black; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 14px;">Resume</a>
+                <a href="#project" style="border: 2px solid #007bff; color: black; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 14px;">Projects</a>
+              </div>
+      
+              
+      
+            </div>
+      
+          </div>
+      
+        </div>
+      </section>
+      
+      
+    
+    
+
+    <section id="skills" style="padding: 80px 0;padding: 80px 0; background-color:#e0e0e0;border-radius:20px; margin: 10px 60px;">
+        <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+          <h2 class="section-title" style="text-align: center; font-size: 36px; font-weight: bold; margin-bottom: 50px; color: #333;">
+            My <span style="color: #007bff;">Skills</span>
+            <div style="width: 200px; height: 1px; background-color: #373637; margin: auto; margin-top:10px;"></div>
+          </h2>
+          
+          
+          <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 40px;">
+            
+            <!-- Languages -->
+            <div class="skill-category" style="background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+              <h3 style="font-size: 24px; margin-bottom: 20px; color: #444; display: flex; align-items: center; gap: 10px;">
+                <i class="fas fa-code"></i> Languages
+              </h3>
+              
+              <div class="skill-items" style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="skill-item" data-percent="90" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">Java</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 90%;"></div>
+                  </div>
+                </div>
+                
+                <div class="skill-item" data-percent="85" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">C++</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 85%;"></div>
+                  </div>
+                </div>
+      
+                <div class="skill-item" data-percent="80" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">JavaScript</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 80%;"></div>
+                  </div>
+                </div>
+      
+                <div class="skill-item" data-percent="75" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">C</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 75%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Frameworks -->
+            <div class="skill-category" style="background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+              <h3 style="font-size: 24px; margin-bottom: 20px; color: #444; display: flex; align-items: center; gap: 10px;">
+                <i class="fas fa-layer-group"></i> Frameworks
+              </h3>
+              
+              <div class="skill-items" style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="skill-item" data-percent="85" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">React.js</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 85%;"></div>
+                  </div>
+                </div>
+      
+                <div class="skill-item" data-percent="80" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">Node.js</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 80%;"></div>
+                  </div>
+                </div>
+      
+                <div class="skill-item" data-percent="75" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">Express.js</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 75%;"></div>
+                  </div>
+                </div>
+      
+                <div class="skill-item" data-percent="85" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">Bootstrap</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 85%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Tools & Platforms -->
+            <div class="skill-category" style="background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+              <h3 style="font-size: 24px; margin-bottom: 20px; color: #444; display: flex; align-items: center; gap: 10px;">
+                <i class="fas fa-tools"></i> Tools & Platforms
+              </h3>
+              
+              <div class="skill-items" style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="skill-item" data-percent="90" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">VS Code</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 90%;"></div>
+                  </div>
+                </div>
+      
+                <div class="skill-item" data-percent="80" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">Git</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 80%;"></div>
+                  </div>
+                </div>
+      
+                <div class="skill-item" data-percent="75" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">MySQL</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 75%;"></div>
+                  </div>
+                </div>
+      
+                <div class="skill-item" data-percent="70" style="display: flex; flex-direction: column;">
+                  <span style="font-size: 18px; margin-bottom: 8px; color: #333;">MongoDB</span>
+                  <div class="skill-bar" style="background: #e0e0e0; border-radius: 10px; height: 10px; overflow: hidden;">
+                    <div class="skill-progress" style="height: 100%; background: linear-gradient(90deg, #007bff, #00c6ff); width: 70%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Soft Skills -->
+            <div class="skill-category" style="background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+              <h3 style="font-size: 24px; margin-bottom: 20px; color: #444; display: flex; align-items: center; gap: 10px;">
+                <i class="fas fa-brain"></i> Soft Skills
+              </h3>
+              
+              <div class="soft-skills" style="display: flex; flex-direction: column; gap: 15px;">
+                <div class="soft-skill" style="display: flex; align-items: center; gap: 10px;">
+                  <div class="soft-skill-icon" style="font-size: 24px; color: #007bff;">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <span style="font-size: 18px; color: #333;">Time Management</span>
+                </div>
+      
+                <div class="soft-skill" style="display: flex; align-items: center; gap: 10px;">
+                  <div class="soft-skill-icon" style="font-size: 24px; color: #007bff;">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <span style="font-size: 18px; color: #333;">Teamwork</span>
+                </div>
+      
+                <div class="soft-skill" style="display: flex; align-items: center; gap: 10px;">
+                  <div class="soft-skill-icon" style="font-size: 24px; color: #007bff;">
+                    <i class="fas fa-lightbulb"></i>
+                  </div>
+                  <span style="font-size: 18px; color: #333;">Problem Solving</span>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Projects Section -->
+    <section id="project" style="background-color: #e0e0e0;border-radius:20px;margin: 120px 60px;">
+  <div style="text-align: center; margin-bottom: 2rem; margin-top:10px; ">
+    <h2 style="font-size: 2.5rem; font-weight: bold; color: #2d3748; margin-bottom: 10px;">
+      My <span style="color: #007bff;">Projects</span>
+    </h2>
+    <div style="width: 250px; height: 1px; background-color: #1a191a; margin: auto;"></div>
+    <p style="color: #718096; font-size: 1.125rem; margin-top: 1rem;">
+      Explore my latest work showcasing skills and creativity in real-world applications.
+    </p>
+  </div>
+
+  <!-- Grid layout: 2x2 -->
+  <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin: 60px;">
+
+    <!-- Project 1 -->
+    <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;">
+      <div style="height: 200px; overflow: hidden;">
+        <img src="image.png" alt="Travel Blog Website" style="width: 100%;background: #2753bb; height: 100%; object-fit: cover; transition: transform 0.5s;">
+      </div>
+      <div style="padding: 1rem;">
+        <h3 style="font-size: 1.5rem; font-weight: bold; color: #2d3748; margin-bottom: 0.5rem;">Travel Blog Website</h3>
+        <p style="color: #718096; font-size: 0.95rem; margin-bottom: 1rem;">
+          Discover inspiring journeys, hidden gems, and travel experiences around the world through our vibrant travel blog.
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">HTML</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">CSS</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">JavaScript</span>
+        </div>
+        <div style="display: flex; gap: 0.75rem;">
+          <a href="https://github.com/DEEPSHIKHA102/Travel-blog-website" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">GitHub</a>
+          <a href="https://travel-blog-website-app.netlify.app/" target="_blank" style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Live</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;">
+      <div style="height: 200px; overflow: hidden;">
+        <img src="image3.png" alt="Home Decor Website" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s;">
+      </div>
+      <div style="padding: 1rem;">
+        <h3 style="font-size: 1.5rem; font-weight: bold; color: #2d3748; margin-bottom: 0.5rem;">The Home Decor</h3>
+        <p style="color: #718096; font-size: 0.95rem; margin-bottom: 1rem;">
+          Transform spaces into beautiful places with creative decor ideas, DIY projects, and expert styling tips.
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">React</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">JavaScript</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">MongoDB</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Node.js</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Express</span>
+        </div>
+        <div style="display: flex; gap: 0.75rem;">
+          <a href="https://github.com/DEEPSHIKHA102/The-Home-Decor" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">GitHub</a>
+          <a href="https://the-home-decor-website.netlify.app/" target="_blank" style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Live</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;">
+      <div style="height: 200px; overflow: hidden;">
+        <img src="image2.png" alt="Learning Website" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s;">
+      </div>
+      <div style="padding: 1rem;">
+        <h3 style="font-size: 1.5rem; font-weight: bold; color: #2d3748; margin-bottom: 0.5rem;">Learning Website</h3>
+        <p style="color: #718096; font-size: 0.95rem; margin-bottom: 1rem;">
+          Empower your knowledge journey with interactive learning experiences, skill-building resources, and expert insights.
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">HTML</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">CSS</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">JavaScript</span>
+        </div>
+        <div style="display: flex; gap: 0.75rem;">
+          <a href="https://github.com/DEEPSHIKHA102/Learning-Website" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">GitHub</a>
+          <a href="https://learning-system-website.netlify.app/" target="_blank" style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Live</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;">
+      <div style="height: 200px; overflow: hidden;">
+        <img src="image4.png" alt="Online Food Ordering System" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s;">
+      </div>
+      <div style="padding: 1rem;">
+        <h3 style="font-size: 1.5rem; font-weight: bold; color: #2d3748; margin-bottom: 0.5rem;">Online Food Ordering System</h3>
+        <p style="color: #718096; font-size: 0.95rem; margin-bottom: 1rem;">
+          Order your favorite meals easily from your favorite restaurants — fast, fresh, and delivered to your doorstep.
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">React</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">JavaScript</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">MongoDB</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Node.js</span>
+          <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Express</span>
+        </div>
+        <div style="display: flex; gap: 0.75rem;">
+          <a href="https://github.com/DEEPSHIKHA102/Online-ordering-food-System" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">GitHub</a>
+          <a href="#" target="_blank" style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Live</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  
+  
+      
+  <!-- experience section -->
+
+  <section id="experience" style="padding: 40px; padding: 80px 0; border-radius:20px;background-color:#e0e0e0; margin: 120px 60px;">
+    
+    <h2 style="font-size: 2.5rem; font-weight: bold; color: #2d3748; margin-bottom: 1rem; text-align:center;">My work <span style="color: #007bff;">experience</span></h2>
+    <div style="width: 250px; height: 1px; background-color: #1a191a; margin: auto;"></div>
+    
+    <!-- Main Container -->
+    <div style="display: flex; align-items: center; gap: 40px; margin-top: 50px; flex-wrap: wrap;">
+        
+        <!-- Image Left -->
+        <div style="flex: 1; min-width: 300px; text-align: center; margin-left: 40px;">
+            <img src="./certificate_image.png" alt="Summer Training Image" style="width: 100%; max-width: 400px; border-radius: 10px;">
+        </div>
+
+        <!-- Text Right -->
+        <div style="flex: 2; min-width: 300px; background-color: #fff; padding: 30px; border-radius: 20px; margin-right: 40px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);">
+            <h3 style="font-size: 1.8rem; font-weight: 600; color: #10a3d0; margin-bottom: 15px;">Summer Training</h3>
+            <p style="font-size: 1rem; color: #343333; margin-bottom: 5px;">Board Infinity</p>
+            <p style="font-size: 0.9rem; color: #595858; margin-bottom: 20px;">June 2024 - July 2024</p>
+
+            <ul style="padding-left: 20px; margin-bottom: 20px; color: #333333;">
+                <li>This training encompassed a thorough exploration of various data structures, including linked lists, trees, tries, and graphs.</li>
+                <li>Enhanced problem-solving skills by mastering advanced data structures like linked lists, trees, tries, and graphs.</li>
+                <li>Developed a text-based Library Management System using C++, enabling efficient storage and retrieval of 100+ books.</li>
+                <li>Gained hands-on experience in optimizing algorithms for time and space complexity.</li>
+            </ul>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                <span style="background-color: #76b9cd; color: black; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem;">Data Structures and Algorithm</span>
+                <span style="background-color: #76b9cd; color: black; padding: 5px 10px; border-radius: 20px; font-size: 0.8rem;">C++</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- Certificate Section Page -->
+    <section id="certificate" style="background-color:#e0e0e0; border-radius:20px;margin: 120px 60px;">
+
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <h2 style="font-size: 2.5rem; font-weight: bold; color: #2d3748; margin: 10px;">Certifications</h2>
+      <div style="width: 250px; height: 1px; background-color: #1a191a; margin: auto;"></div>
+    </div>
+  
+    <!-- Grid layout: 2 rows x 3 columns -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, auto); gap: 2rem;">
+      
+      <!-- Certificate Card 1 -->
+      <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;  margin-left:50px;">
+        <div style="height: 300px; background: #2753bb; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+          <iframe src="./certificate/c1.pdf#toolbar=0&navpanes=0&scrollbar=0" title="Certificate 1" style="width: 100%; height: 100%; border: none; border-radius: 0.5rem;"></iframe>
+        </div>
+        <div style="padding: 1.0rem;">
+          <p style="color: #870b0d; font-size: 0.875rem; margin-bottom: 1rem;">Completed July 2024</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Data Structures and Algorithm</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">C++</span>
+          </div>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="./certificate/c1.pdf" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Open PDF</a> 
+            <a href="./certificate/c1.pdf" download style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">
+                <i class="fas fa-download"></i>
+            </a>
+        </div>
+        </div>
+      </div>
+  
+      <!-- Copy and paste the above block 5 more times for a total of 6 certificates (2x3) -->
+      <!-- Change the PDF link, title, categories as needed for each certificate -->
+  
+      <!-- Certificate Card 2 -->
+      <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;">
+        <div style="height: 300px; background: #2753bb; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+          <iframe src="./certificate/c2.pdf#toolbar=0&navpanes=0&scrollbar=0" title="Certificate 1" style="width: 100%; height: 100%; border: none; border-radius: 0.5rem;"></iframe>
+        </div>
+        <div style="padding: 1.0rem;">
+          <p style="color: #870b0d; font-size: 0.875rem; margin-bottom: 1rem;">Completed October 2024</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">HTML</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">CSS</span>
+            
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Javascript</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Node.js</span>
+            
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Express</span>
+            
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">React.js</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">MongoDB</span>
+          </div>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="./certificate/c2.pdf" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Open PDF</a> 
+            <a href="./certificate/c2.pdf" download style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">
+                <i class="fas fa-download"></i>
+            </a>
+            </div>
+        </div>
+      </div>
+
+      <!-- Certificate Card 3 -->
+      <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;  margin-right:50px;">
+        <div style="height: 300px; background: #2753bb; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+          <iframe src="./certificate/c3.pdf#toolbar=0&navpanes=0&scrollbar=0" title="Certificate 1" style="width: 100%; height: 100%; border: none; border-radius: 0.5rem;"></iframe>
+        </div>
+        <div style="padding: 1.0rem;">
+          <p style="color: #870b0d; font-size: 0.875rem; margin-bottom: 1rem;">Completed April 2024</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">HTML</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">CSS</span>
+            
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Javascript</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Node.js</span>
+            
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Express</span>
+            
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">React.js</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">MongoDB</span>
+          </div>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="./certificate/c3.pdf" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Open PDF</a> 
+            <a href="./certificate/c3.pdf" download style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">
+                <i class="fas fa-download"></i>
+            </a>
+            </div>
+        </div>
+      </div>
+
+      <!-- Certificate Card 4 -->
+      <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;  margin-left:50px;">
+        <div style="height: 300px; background: #2753bb; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+          <iframe src="./certificate/c4.pdf#toolbar=0&navpanes=0&scrollbar=0" title="Certificate 1" style="width: 100%; height: 100%; border: none; border-radius: 0.5rem;"></iframe>
+        </div>
+        <div style="padding: 1.0rem;">
+          <p style="color: #870b0d; font-size: 0.875rem; margin-bottom: 1rem;">Completed April 2024</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Algorithm</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">problem-solving</span>
+            
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Memoization</span>
+          </div>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="./certificate/c4.pdf" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Open PDF</a> 
+            <a href="./certificate/c4.pdf" download style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">
+                <i class="fas fa-download"></i>
+            </a>
+           
+            
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate Card 5 -->
+      <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;">
+        <div style="height: 300px; background: #2753bb; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+          <iframe src="./certificate/c5.pdf#toolbar=0&navpanes=0&scrollbar=0" title="Certificate 1" style="width: 100%; height: 100%; border: none; border-radius: 0.5rem;"></iframe>
+        </div>
+        <div style="padding: 1.0rem;">
+          <p style="color: #870b0d; font-size: 0.875rem; margin-bottom: 1rem;">Completed March 2024</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Natural Language Prompts</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Python</span>
+            
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Matplotlib</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Pandas</span>
+          </div>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="./certificate/c5.pdf" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Open PDF</a> 
+            <a href="./certificate/c5.pdf" download style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">
+                <i class="fas fa-download"></i>
+            </a>
+        </div>
+        </div>
+      </div>
+
+      <!-- Certificate Card 6 -->
+      <div style="background: #fff; border-radius: 1rem; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #f3f4f6; transition: all 0.3s;  margin-right:50px;">
+        <div style="height: 300px; background: #2753bb; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+          <iframe src="./certificate/c6.pdf#toolbar=0&navpanes=0&scrollbar=0" title="Certificate 1" style="width: 100%; height: 100%; border: none; border-radius: 0.5rem;"></iframe>
+        </div>
+        <div style="padding: 1.0rem;">
+          <p style="color: #870b0d; font-size: 0.875rem; margin-bottom: 1rem;">Completed February 2024</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;">
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">AI</span>
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Deep Learning</span>
+            
+            <span style="background: #90bae7; color: black; padding: 0.25rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">Machine Learning</span>
+          </div>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="./certificate/c6.pdf" target="_blank" style="flex: 1; border: 1px solid #2d3748; color: #2d3748; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">Open PDF</a> 
+            <a href="./certificate/c6.pdf" download style="flex: 1; background: #2d3748; color: white; text-align: center; padding: 0.5rem; border-radius: 0.5rem; text-decoration: none;">
+                <i class="fas fa-download"></i>
+            </a>
+        </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" style="padding: 50px 0;border-radius:20px;background-color:#e0e0e0; margin: 120px 60px; ">
+    <div style="width: 80%; margin: 0 auto;">
+        <h2 style="text-align: center; font-size: 36px; margin-bottom: 40px;">
+            My <span style="color: #3498db;">Education</span>
+        </h2>
+        <div style="border-left: 3px solid #3498db; padding-left: 20px;">
+            <div style="margin-bottom: 30px;">
+                <div>
+                    <h3 style="margin: 5px 0; font-size: 24px;">Bachelor of Technology - Computer Science and Engineering</h3>
+                    <h4 style="margin: 5px 0; font-size: 20px; color: #3498db;">Lovely Professional University, Punjab, India</h4>
+                    
+                <div style="font-weight: bold; color: #333333;">2022 - 2026</div>
+                    <p style="margin: 5px 0; color: #252424;">CGPA: 7.16</p>
+                </div>
+            </div>
+            <div style="margin-bottom: 30px;">
+                <div>
+                    <h3 style="margin: 5px 0; font-size: 24px;">Senior Secondary (12th)</h3>
+                    <h4 style="margin: 5px 0; font-size: 20px; color: #3498db;">Jawahar Navodaya Vidyalaya, Hardoi, Uttar Pradesh</h4>
+                    
+                <div style="font-weight: bold; color: #333333;">2020 - 2021</div>
+                    <p style="margin: 5px 0; color: #252424;">Percentage: 89.2%</p>
+                </div>
+            </div>
+            <div style="margin-bottom: 30px;">
+                <div>
+                    <h3 style="margin: 5px 0; font-size: 24px;">Matriculation (10th)</h3>
+                    <h4 style="margin: 5px 0; font-size: 20px; color: #3498db;">Jawahar Navodaya Vidyalaya, Hardoi, Uttar Pradesh</h4>
+                    
+                <div style="font-weight: bold; color: #333333;">2018 - 2019</div>
+                    <p style="margin: 5px 0; color: #252424;">Percentage: 85.6%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- contact section -->
+
+  <section id="contact" style="padding: 40px 20px; border-radius:20px;background-color:#e0e0e0; margin:60px;">
+    <h2 style="font-size: 2rem; font-weight: bold; color: #4a4a4a; text-align: center; margin-bottom: 20px;">Get in <span style="color: #007bff;">touch!</span></h2>
+  
+    <div style="width: 250px; height: 1px; background-color: #1a191a; margin: auto;"></div>
+
+    <div style="display: flex; justify-content: row;margin-top: 20px;">
+        <!-- Contact Form -->
+        <div style="background-color: #fff; padding: 40px; margin:70px; border-radius: 15px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); width: 100%; max-width: 450px; margin-bottom: 20px;">
+            <h3 style="font-size: 1.5rem; font-weight: 600; color: #f59e0b; margin-bottom: 20px;">Send me a message</h3>
+            <form action="https://formsubmit.co/paldeepshikha102@gmail.com" method="POST" noValidate>
+                <div style="margin-bottom: 20px;">
+                    <label for="user_name" style="font-size: 1rem; font-weight: 500; color: #4a4a4a; display: block; margin-bottom: 8px;">Your Name</label>
+                    <input type="text" name="user_name" required placeholder="Enter your name" style="width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; margin-bottom: 15px; font-size: 1rem; color: #4a4a4a;">
+                </div>
+
+                <div style="margin-bottom: 10px;">
+                    <label for="user_email" style="font-size: 1rem; font-weight: 500; color: #4a4a4a; display: block; margin-bottom: 8px;">Your Email</label>
+                    <input type="email" name="user_email" required placeholder="Enter your email" style="width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; margin-bottom: 15px; font-size: 1rem; color: #4a4a4a;">
+                </div>
+
+                <div style="margin-bottom: 20px;">
+                    <label for="message" style="font-size: 1rem; font-weight: 500; color: #4a4a4a; display: block; margin-bottom: 8px;">Your Message</label>
+                    <textarea name="message" rows="5" required placeholder="Enter your message" style="width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 8px; margin-bottom: 15px; font-size: 1rem; color: #4a4a4a;"></textarea>
+                </div>
+
+                <button type="submit" style="background-color: #2d3748; color: white; padding: 12px; border: none; border-radius: 8px; width: 100%; font-size: 1rem; cursor: pointer; transition: background-color 0.3s ease;">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div style="background-color: #fff; padding: 40px; margin: 70px; border-radius: 15px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); width: 100%; max-width: 450px; margin-bottom: 20px;">
+            <h3 style="font-size: 1.5rem; font-weight: 600; color: #f59e0b; margin-bottom: 20px;">Contact Information</h3>
+          
+            <!-- Email Section -->
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+              <div style="background-color: #fef2c0; padding: 12px; border-radius: 50%; margin-right: 15px; color: #d97706; font-size: 1.5rem;">&#9993;</div>
+              <div>
+                <h4 style="font-size: 1.125rem; font-weight: 500; color: #4a4a4a; margin-bottom: 4px;">Email</h4>
+                <a href="mailto:paldeepshikha102@gmail.com" style="color: #6b7280; text-decoration: none; font-weight: 500;">paldeepshikha102@gmail.com</a>
+              </div>
+            </div>
+          
+            <!-- Phone Section -->
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+              <div style="background-color: #fef2c0; padding: 12px; border-radius: 50%; margin-right: 15px; color: #d97706; font-size: 1.5rem;">&#9742;</div>
+              <div>
+                <h4 style="font-size: 1.125rem; font-weight: 500; color: #4a4a4a; margin-bottom: 4px;">Phone</h4>
+                <a href="tel:+919580258759" style="color: #6b7280; text-decoration: none; font-weight: 500;">+91 9580258759</a>
+              </div>
+            </div>
+          
+            <!-- LinkedIn Section -->
+            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+              <div style="background-color: #fef2c0; padding: 12px; border-radius: 50%; margin-right: 15px; color: #d97706; font-size: 1.5rem;">&#128100;</div>
+              <div>
+                <h4 style="font-size: 1.125rem; font-weight: 500; color: #4a4a4a; margin-bottom: 4px;">LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/deepshikha-pal-7915a5251/" target="_blank" style="color: #6b7280; text-decoration: none; font-weight: 500;">linkedin.com/in/deepshikha-pal</a>
+              </div>
+            </div>
+          
+            <!-- GitHub Section -->
+            <div style="display: flex; align-items: center;">
+              <div style="background-color: #fef2c0; padding: 12px; border-radius: 50%; margin-right: 15px; color: #d97706; font-size: 1.5rem;">&#128187;</div>
+              <div>
+                <h4 style="font-size: 1.125rem; font-weight: 500; color: #4a4a4a; margin-bottom: 4px;">GitHub</h4>
+                <a href="https://github.com/DEEPSHIKHA102" target="_blank" style="color: #6b7280; text-decoration: none; font-weight: 500;">github.com/Deepshikha-Pal</a>
+              </div>
+            </div>
+          
+          </div>
+          
+    </div>
+</section>
+
+
+    <!-- footer section -->
+
+    <footer style="background: #d7d6d6; border-radius:20px;padding: 2rem 0;">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+          <!-- Top Row: Three Columns -->
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
+            
+            <!-- Left Column -->
+            <div style="flex: 1; min-width: 200px;">
+              <h3 style="margin: 0 0 0.5rem 0; color: #7e22ce;">Deepshikha Pal</h3>
+              <p style="margin: 0; color: #141515;">FullStack Web Developer</p>
+            </div>
+            
+            <!-- Center Column -->
+            <div style="flex: 1; min-width: 200px;">
+              <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+                <li><a href="#about" style="text-decoration: none; color: #141515; font-weight: 600;">About</a></li>
+                <li><a href="#skills" style="text-decoration: none; color: #141515; font-weight: 600;">Skills</a></li>
+                <li><a href="#project" style="text-decoration: none; color: #141515; font-weight: 600;">Projects</a></li>
+                <li><a href="#experience" style="text-decoration: none; color: #141515; font-weight: 600;">Experience</a></li>
+                <li><a href="resume.html" style="text-decoration: none; color: #141515; font-weight: 600;">Resume</a></li>
+                <li><a href="#certificate" style="text-decoration: none; color: #141515; font-weight: 600;">Certifications</a></li>
+                <li><a href="#contact" style="text-decoration: none; color: #141515; font-weight: 600;">Contact</a></li>
+              </ul>
+            </div>
+            
+            <!-- Right Column -->
+            <div style="flex: 1; min-width: 200px; text-align: right;">
+              <h4 style="margin: 0 0 1rem 0; color: #141515;">Follow Me</h4>
+              <div style="display: flex; justify-content: flex-end; gap: 1rem;">
+                <a href="https://www.linkedin.com/in/deepshikha-pal-7915a5251/" target="_blank" style="color: #1662cc; font-size: 1.2rem;">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/DEEPSHIKHA102" target="_blank" style="color: #1662cc; font-size: 1.2rem;">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Bottom Row: Copyright -->
+          <div style="text-align: center; padding-top: 2rem; border-top: 1px solid #323232;">
+            <p style="margin: 0.5rem 0; color: #272828;">&copy; 2025 Deepshikha Pal. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+
+
+        <!-- JavaScript for Dropdown -->
+    <script>
+        const moreLink = document.querySelector('li div');
+        const dropdownMenu = moreLink.querySelector('ul');
+
+        moreLink.addEventListener('mouseover', () => {
+            dropdownMenu.style.display = 'block';
+        });
+
+        moreLink.addEventListener('mouseout', () => {
+            dropdownMenu.style.display = 'none';
+        });
+    </script>
+    
+</body>
+</html>
