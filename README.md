@@ -49,7 +49,7 @@ To personalize this portfolio:
 5. Update the certification PDFs in the `certificate` folder
 
 ## Live Demo
-[[View Live Portfolio](https://travel-blog-website-app.netlify.app/)](#) *(Add your live URL here when deployed)*
+[[View Live Portfolio]https://deepshikha-pal-portfolio.netlify.app/](#) *(Add your live URL here when deployed)*
 
 ## License
 This project is open source and available under the MIT License.
